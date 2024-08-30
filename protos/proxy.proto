@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package proxy;
+
+
+service VideoCrawling {
+  rpc Videos (SearchRequest) returns (SearchResponse);
+}
+
+message SearchRequest {
+  string query = 1; 
+  int32 limit = 2; 
+}
+
+message SearchResponse {
+  repeated string links = 1;
+}

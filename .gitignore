@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg-info/
+*.whl
+*.manifest
+*.spec
+*.pytype/
+.coverage
+.cache
+*.coverage.*
+*.hypothesis/
+.tox/
+.mypy_cache/
+.pytest_cache/
+venv/
+
+# gRPC generated files
+*pb2.py
+*pb2_grpc.py
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Environment variables
+.env
